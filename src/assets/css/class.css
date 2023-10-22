@@ -1,0 +1,133 @@
+/*
+Uso das fonts
+font-family: 'Iceland', cursive;
+font-family: 'Play', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+:root {
+    --clr-neon: hsl(317 100% 54%):
+    --clr-bg: hsl(323 21% 16%);
+}
+
+.texto-azul {
+    color: #346CDA;
+}
+
+.texto-vermelho {
+    color: #EE5A5A;
+}
+
+.texto-preto {
+    color: #363636;
+}
+
+.texto-branco {
+    color: white;
+}
+.bg-azul {
+    background-color: #346CDA;
+}
+
+.bg-vermelho {
+    background: #EE5A5A;
+}
+
+.bg-preto {
+    background: #363636;
+}
+
+.bg-branco {
+    background: white;
+}
+
+.texto-paragrafo-primario-xl {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.53rem;
+    line-height: 2;
+}
+
+.texto-paragrafo-primario {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.texto-paragrafo-primario-sm {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.titulo-l {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.titulo-m {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.titulo-paragrafo-secundario {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+}
+
+.subtitulo-m {
+    font-family: 'Iceland', cursive;
+    font-size: 2.5rem;
+}
+
+.subtitulo-s {
+    font-family: 'Iceland', cursive;
+    font-size: 1.5rem;
+}
+
+.centralizar-div {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.icones {
+    color: #262626;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    font-size: 4rem;
+    width: 4rem;
+    border-radius: 25%;
+    background-image: linear-gradient(to bottom right, #346CDA, #9134DA);
+}
+
+.icones-link {
+    color: #262626;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    font-size: 4rem;
+    width: 4rem;
+    border-radius: 25%;
+    background-image: linear-gradient(to bottom right, #346CDA, #9134DA);
+}
+
+.icones-link:hover {
+    background-image: linear-gradient(to bottom, #346CDA, #9134DA);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.icone-redondo {
+    color: #262626;
+    background-color: #346CDA;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
