@@ -9,10 +9,13 @@
     }
 </script>
 <template>
-    <div>
+    <div id="navBar">
         <NavBar />
     </div>
 </template>
 
 <style>
+    html.dark #navBar {
+        background-color: rgba(0, 0, 0, 0.80);
+    }
 </style>

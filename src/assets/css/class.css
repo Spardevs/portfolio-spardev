@@ -14,31 +14,12 @@ font-family: 'Poppins', sans-serif;
     color: #346CDA;
 }
 
-.texto-vermelho {
-    color: #EE5A5A;
-}
-
-.texto-preto {
-    color: #363636;
-}
-
-.texto-branco {
-    color: white;
-}
-.bg-azul {
-    background-color: #346CDA;
-}
-
-.bg-vermelho {
-    background: #EE5A5A;
-}
-
-.bg-preto {
-    background: #363636;
-}
-
-.bg-branco {
-    background: white;
+.texto-gradiente {
+    background: linear-gradient(180deg,#3b82f6, #9134DA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline;
 }
 
 .texto-paragrafo-primario-xl {
@@ -61,13 +42,13 @@ font-family: 'Poppins', sans-serif;
 .titulo-l {
     font-family: 'Play', sans-serif;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 10vw;
 }
 
 .titulo-m {
     font-family: 'Play', sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 8vw;
 }
 
 .titulo-paragrafo-secundario {
@@ -77,57 +58,11 @@ font-family: 'Poppins', sans-serif;
 
 .subtitulo-m {
     font-family: 'Iceland', cursive;
-    font-size: 2.5rem;
+    font-size: 5vw;
 }
 
 .subtitulo-s {
     font-family: 'Iceland', cursive;
-    font-size: 1.5rem;
+    font-size: 3vw;
 }
 
-.centralizar-div {
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-}
-
-.icones {
-    color: #262626;
-    display: flex;
-    margin: 15px;
-    padding: 15px;
-    font-size: 4rem;
-    width: 4rem;
-    border-radius: 25%;
-    background-image: linear-gradient(to bottom right, #346CDA, #9134DA);
-}
-
-.icones-link {
-    color: #262626;
-    display: flex;
-    margin: 15px;
-    padding: 15px;
-    font-size: 4rem;
-    width: 4rem;
-    border-radius: 25%;
-    background-image: linear-gradient(to bottom right, #346CDA, #9134DA);
-}
-
-.icones-link:hover {
-    background-image: linear-gradient(to bottom, #346CDA, #9134DA);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.icone-redondo {
-    color: #262626;
-    background-color: #346CDA;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
