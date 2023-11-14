@@ -2,9 +2,13 @@
   <div id="app">
     <header>
       <HeaderPage />
+      <router-view />
     </header>
     <section>
       <HomePort />
+    </section>
+    <section>
+      <SobreMim />
     </section>
   </div>
 </template>
@@ -14,12 +18,14 @@ import '@/assets/css/class.css';
 import '@/assets/css/reset.css';
 import HomePort from './views/HomePort.vue';
 import HeaderPage from './components/header/HeaderPage.vue';
+import SobreMim from './views/SobreMim.vue';
 
 export default {
   name: 'app',
   components: {
     HeaderPage,
-    HomePort
+    HomePort,
+    SobreMim,
   }
 }
 
@@ -36,12 +42,13 @@ html.dark {
 #app {
   text-align: center;
 }
-section {
-  height: 100vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-}
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0px;
+
+}
 
 </style>

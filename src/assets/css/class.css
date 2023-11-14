@@ -10,6 +10,10 @@ font-family: 'Poppins', sans-serif;
     --clr-bg: hsl(323 21% 16%);
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .texto-azul {
     color: #346CDA;
 }
@@ -25,30 +29,37 @@ font-family: 'Poppins', sans-serif;
 .texto-paragrafo-primario-xl {
     font-family: 'Poppins', sans-serif;
     font-size: 2.53rem;
-    line-height: 2;
+    line-height: 1.2;
 }
 
+.texto-paragrafo-primario-md {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.2;
+
+}
 .texto-paragrafo-primario {
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .texto-paragrafo-primario-sm {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    line-height: 1.2;
 }
 
 .titulo-l {
     font-family: 'Play', sans-serif;
     font-weight: bold;
-    font-size: 10vw;
+    font-size: 10vh;
 }
 
 .titulo-m {
     font-family: 'Play', sans-serif;
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 8vh;
 }
 
 .titulo-paragrafo-secundario {
@@ -58,11 +69,11 @@ font-family: 'Poppins', sans-serif;
 
 .subtitulo-m {
     font-family: 'Iceland', cursive;
-    font-size: 5vw;
+    font-size: 5vh;
 }
 
 .subtitulo-s {
     font-family: 'Iceland', cursive;
-    font-size: 3vw;
+    font-size: 3vh;
 }
 

@@ -1,7 +1,7 @@
 <script>
     export default {
-    name: 'HomePort',
-}
+        name: 'HomePort',
+    }
 </script>
 
 <template>
@@ -18,9 +18,15 @@
             </div>
         </div>
         <div id="icones">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-solid fa-file-pdf"></i>
+            <a rel="noopener" title="Github" href="https://github.com/Spardevs" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a rel="noopener" title="Linkedin" href="https://www.linkedin.com/in/spardev/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a rel="noopener" title="Curriculo - CV" href="/public/download/CV - Gabriel Fernandes Ramos.pdf" target="_blank">
+                <i class="fa-solid fa-file-pdf"></i>
+            </a>
         </div>
     </div>
 </template>
@@ -28,11 +34,15 @@
 <style scoped>
 
     #home {
-        background-color: #f2f2f2;
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        height: 100vh;
+        background-image: url('/public/img/imagemFundo.jpg');
+        background-size: cover; /* Ajuste de acordo com sua preferência */
+
     }
 
     html.dark #home {
@@ -67,27 +77,36 @@
     }
 
     img {
-        width: 40vw;
+        margin-top: 10vh;
+        width: 40vh;
         border-radius: 50%;
         border: 5px solid #346CDA;
     }
+    
     #icones {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        margin-bottom: 5vh;
+        margin: 3vh 0px;
     }
 
     #icones i {
-        color: white;
+        /* color: white; */
         margin: 0px 20px;
-        font-size: 7vw;
-        text-shadow: 1px 1px 3px black;
+        font-size: 7vh;
     }
 
+    /* html.dark #icones i {
+        color: black;
+    } */
+    
     #icones i:hover {
-        color: #346CDA;
-    }
+        background: linear-gradient(180deg,#3b82f6, #9134DA);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: none;    
+}
 
 </style>

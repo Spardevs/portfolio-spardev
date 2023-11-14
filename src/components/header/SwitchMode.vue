@@ -36,6 +36,13 @@ const toggleDark = useToggle(isDark);
         padding: 5px;
         border-radius: 50%;
         border: 2px solid #3b82f6;
-        box-shadow: 1px 1px 3px black;
+    }
+    .bg-azul:hover {
+        background-color: #3b82f6;
+        color: white;
+    }
+
+    html.dark .bg-azul:hover{
+        color: black;
     }
 </style>
