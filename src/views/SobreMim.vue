@@ -5,6 +5,9 @@
 </script>
 <template>
     <div id="sobreMim">
+        <div id="fotoSobreMim">
+            <img src="../assets/imgs/imagem_perfil.jpg" alt="Imagem Perfil">
+        </div>
         <div id="apresentacao">
             <div id="textoSobreMim">
                 <h1 class="bold texto-azul texto-paragrafo-primario-md"> 
@@ -34,13 +37,11 @@
                 </ul>
             </div>
         </div>
-        <div id="fotoSobreMim">
-            <img src="../assets/imgs/imagem_perfil.jpg" alt="Imagem Perfil">
-        </div>
     </div>
 </template>
 <style>
     #sobreMim {
+        padding: 10vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -64,18 +65,19 @@
     }
 
     #apresentacao {
-        margin: 0px 100px;;
+        margin: 10px;
     }
 
     #fotoSobreMim {
-        height: 100%;
-        overflow: hidden;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #fotoSobreMim img {
-        height: 100vh;
-        transform: rotate(15deg) translate(170px, -100px);
-        border: 10px solid #346CDA;
+        border-radius: 50%;
+        border: 5px solid #346CDA;
     }
   
 

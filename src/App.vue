@@ -11,6 +11,9 @@
       <SobreMim />
     </section>
   </div>
+  <footer>
+    <FooterPage />
+  </footer>
 </template>
 
 <script>
@@ -19,6 +22,7 @@ import '@/assets/css/reset.css';
 import HomePort from './views/HomePort.vue';
 import HeaderPage from './components/header/HeaderPage.vue';
 import SobreMim from './views/SobreMim.vue';
+import FooterPage from './components/footer/FooterPage.vue';
 
 export default {
   name: 'app',
@@ -26,6 +30,7 @@ export default {
     HeaderPage,
     HomePort,
     SobreMim,
+    FooterPage,
   }
 }
 

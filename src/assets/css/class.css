@@ -62,6 +62,12 @@ font-family: 'Poppins', sans-serif;
     font-size: 8vh;
 }
 
+.titulo-s {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 6vh;
+}
+
 .titulo-paragrafo-secundario {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
