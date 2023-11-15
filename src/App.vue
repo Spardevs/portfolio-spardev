@@ -32,6 +32,7 @@ export default {
     SobreMim,
     FooterPage,
   }
+  
 }
 
 </script>

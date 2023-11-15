@@ -1,18 +1,27 @@
-// router.js
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import HomePort from '../views/HomePort.vue'
-import SobreMim from '../views/SobreMim.vue'
+import { createRouter, createWebHistory } from 'vue-router';
 
-Vue.use(VueRouter)
+// Importação dos componentes que serão usados nas rotas
+import HomePort from '@/views/HomePort.vue';
+import SobreMim from '@/views/SobreMim.vue';
 
+// Definição das rotas
 const routes = [
-  { path: "/", component: HomePort },
-  { path: "/sobreMim", component: SobreMim },
-]
+  {
+    path: '/',
+    name: 'Home',
+    component: HomePort
+  },
+  {
+    path: '/sobreMim',
+    name: 'Sobre mim',
+    component: SobreMim
+  }
+];
 
-const router = new VueRouter({
-  routes
-})
+// Criação da instância do router
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
 
-export default router
+export default router;

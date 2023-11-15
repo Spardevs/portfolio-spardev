@@ -41,6 +41,7 @@
 </template>
 <style>
     #sobreMim {
+        background-color: #F2F2F2;
         padding: 10vw;
         display: flex;
         align-items: center;

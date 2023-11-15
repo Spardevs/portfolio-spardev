@@ -54,6 +54,10 @@
         width: 80%;
         margin: 10px;
         height: 1px;
+        background-color: black;
+    }
+
+    html.dark #linha {
         background-color: white;
     }
 

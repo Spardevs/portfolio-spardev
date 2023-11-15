@@ -17,13 +17,13 @@ const toggleDark = useToggle(isDark);
     <div>
         <template v-if="!isDark">
             <font-awesome-icon 
-                icon="sun" 
+                icon="moon" 
                 @click="toggleDark()"
                 class="w-5 ml-5 bg-azul texto-azul"/>
         </template>
         <template v-else>
             <font-awesome-icon 
-                icon="moon" 
+                icon="sun" 
                 @click="toggleDark()"
                 class="w-5 ml-5 bg-azul texto-azul"
             />
