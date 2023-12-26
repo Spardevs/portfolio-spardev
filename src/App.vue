@@ -2,26 +2,27 @@
   <div id="app">
     <header>
       <HeaderPage />
-      <router-view />
     </header>
-    <section>
-      <HomePort />
-    </section>
-    <section>
-      <SobreMim />
-    </section>
+    <main>
+      <section>
+        <HomePort />
+      </section>
+      <section>
+        <SobreMim />
+      </section>
+    </main>
+    <footer>
+      <FooterPage />
+    </footer>
   </div>
-  <footer>
-    <FooterPage />
-  </footer>
 </template>
 
 <script>
 import '@/assets/css/class.css';
 import '@/assets/css/reset.css';
-import HomePort from './views/HomePort.vue';
+import HomePort from '@/views/pages/HomePort.vue';
 import HeaderPage from './components/header/HeaderPage.vue';
-import SobreMim from './views/SobreMim.vue';
+import SobreMim from './views/pages/SobreMim.vue';
 import FooterPage from './components/footer/FooterPage.vue';
 
 export default {

@@ -81,11 +81,13 @@ font-family: 'Poppins', sans-serif;
 
 .subtitulo-m {
     font-family: 'Iceland', cursive;
-    font-size: 5vh;
+    font-size: 4vh;
+    line-height: 1.2;
 }
 
 .subtitulo-s {
     font-family: 'Iceland', cursive;
     font-size: 3vh;
+    line-height: 1;
 }
 

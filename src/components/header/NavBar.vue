@@ -15,8 +15,6 @@
         <div class="navbar-menu subtitulo-s dark:bg-azul">
             <router-link to="/" class="navbar-item">Inicio</router-link>
             <router-link to="/sobreMim" class="navbar-item">Sobre mim</router-link>
-            <router-link to="/contact" class="navbar-item">Skills</router-link>
-            <router-link to="/contact" class="navbar-item">Projetos</router-link>
         </div>
     </nav>
   </template>
